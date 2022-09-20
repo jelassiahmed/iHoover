@@ -22,6 +22,6 @@ public class Main {
         System.out.println(pos);
         System.out.println(instructions);
         AspiratorModel aspirator = MoveController.getFinalPosition(grid, pos, instructions);
-        System.out.println("position final : " + aspirator);
+        System.out.println("position finale : " + aspirator);
     }
 }
